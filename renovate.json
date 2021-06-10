@@ -1,0 +1,11 @@
+{
+  "regexManagers": [
+    {
+      "fileMatch": ["^Makefile$"],
+      "matchStrings": ["TEST262_COMMIT = (?<currentDigest>.*\\n)"],
+      "datasourceTemplate": "github-refs",
+      "depNameTemplate": "test262 commit",
+      "lookupNameTemplate": "tc39/test262"
+    }
+  ]
+}
