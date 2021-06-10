@@ -4,7 +4,7 @@
       "fileMatch": ["^Makefile$"],
       "matchStrings": ["TEST262_COMMIT = (?<currentDigest>.*)\\n"],
       "datasourceTemplate": "git-refs",
-      "depNameTemplate": "test262 commit",
+      "depNameTemplate": "test262",
       "lookupNameTemplate": "https://github.com/tc39/test262.git",
       "currentValueTemplate": "main"
     }
