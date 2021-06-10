@@ -2,7 +2,7 @@
   "regexManagers": [
     {
       "fileMatch": ["^Makefile$"],
-      "matchStrings": ["TEST262_COMMIT = (?<currentDigest>.*\\n)"],
+      "matchStrings": ["TEST262_COMMIT = (?<currentDigest>.*)\\n"],
       "datasourceTemplate": "git-refs",
       "depNameTemplate": "test262 commit",
       "lookupNameTemplate": "https://github.com/tc39/test262.git",
